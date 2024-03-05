@@ -1,0 +1,551 @@
+*{
+    padding: 0px;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 19px;
+    scroll-behavior: smooth;
+    
+
+}
+body{
+    background-color:;
+}
+header img{
+    width:10%;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    height:15vh;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #318ce7;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+    color: white;
+}
+.navbar a:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+.banniere .container .explore{
+    background-color:#318ce7;
+    color:white;
+    border:1px solid #318ce7;
+    border-radius:10px;
+    height:5.5vh;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.banniere .container .explore:hover{
+    color:yellow;
+    border-bottom: 2px solid yellow;
+    border-right: 2px solid yellow;
+}
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/font_incendie.jpg);
+    background-size: cover;
+}
+.banniere .container{
+    max-width: 70%;
+    text-align: center;
+}
+.banniere .container h2{
+    color:white;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.banniere .container p:nth-child(2){
+    color: white;
+    font-size: 1.2em;
+}
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.container-img img{
+    margin-left:5%;
+    border-radius: 50px;
+    width: 25%;
+
+}
+.container-1{
+    margin: 50px;
+    margin-top: 50px;
+}
+.container-1 h4{
+    color: #318ce7;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-1 p{
+    font-weight: 300;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+
+    width:70%;
+    border:3px solid #318ce7;
+    background-color: #318ce7;
+    margin-left:15%;
+    margin-top:10px;
+}
+.container-4{
+    background-color: #D3D3D3;
+    margin-top: 50px;
+    height: 50vh;
+    display: flex;
+
+}
+.container-4 h4{
+    color: #318ce7;
+    font-weight: 900;
+    font-size: 30px;
+}
+.objet{
+    width: 100%;
+    ext-align: center;
+}
+.Mission{
+    width: 80%;
+    ext-align: center;
+
+}
+.container-4 p{
+    font-weight: 300;
+    margin: 30px;
+}
+.col-1{
+    
+}
+
+footer{
+    padding: 25px;
+    color: white;
+    background-color:#2C3E4C;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 100;
+    border-top:1px solid #318ce7;
+
+
+}
+footer p{
+    font-size: 25px;
+}
+footer .s{
+    color:yellow;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+footer .n{
+    color:red;
+    font-size: 30px;
+    font-weight: 900;
+}
+footer .A{
+    color:#318ce7;
+    font-size: 30px;
+    font-weight: 900;
+}
+.container-5{
+    margin-top: 30px;
+    padding: 100px;
+    background-color: BLACK;
+    margin-left: 15%;
+
+    border-radius: 15px;
+    width: 70%;
+
+
+
+}
+.container-5 p{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+}
+.container-5 input{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid white;
+    color:#318ce7;
+    border-radius: 5px;
+    margin-left: 37%;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.container-5 input:hover{
+    background-color: #318ce7;
+    color:white;
+    border: 1px solid #318ce7;
+}
+*{
+    padding: 0px;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 19px;
+    scroll-behavior: smooth;
+    
+
+}
+body{
+}
+header img{
+    width:10%;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    height:15vh;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #318ce7;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+    color: white;
+}
+.navbar a:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/font_incendie.jpg);
+    background-size: cover;
+}
+.banniere .container{
+    max-width: 70%;
+    text-align: center;
+}
+.banniere .container h2{
+    color:white;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.banniere .container p:nth-child(2){
+    color: white;
+    font-size: 1.2em;
+}
+/*Liste.html*/
+.header{
+    padding: 50px;
+    background-color:hsl(210, 79%, 55%) ;
+    width: 100%;
+}
+.tableau{
+    border:1px solid #318ce7 ;
+    width:%;
+    margin-left:5 %;
+    margin-top:50px ;
+}
+.tableau h2{
+    text-align: center;
+    border-bottom: #318ce7;
+}
+.tableau .header-2{
+    padding: 10px;
+    background-color: #318ce7;
+}
+.tableau table{
+    order-top: 1px solid #318ce7;
+    width: 100%;
+    border-collapse: collapse;
+}
+.tableau .title th{
+    background-color:#318ce7 ;
+    color: yellow;
+
+}
+.tableau .contenu{
+    border-top:  1px solid #318ce7;
+    text-align: center;
+    background-color:#dff2ff;
+}
+.tableau .contenu:hover{
+    background-color:#318ce7 ;
+    border-top: 3px solid red;
+    color: yellow;
+    font-weight: 800;
+
+}
+
+
+
+/* §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+@media(max-width:720px){
+   *{
+    padding: 0px;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 19px;
+    scroll-behavior: smooth;
+    
+
+}
+body{
+    background-color:;
+}
+header img{
+    width:10%;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    height:15vh;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #318ce7;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+    color: white;
+}
+.navbar a:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+.banniere .container .explore{
+    background-color:#318ce7;
+    color:white;
+    border:1px solid #318ce7;
+    border-radius:10px;
+    height:5.5vh;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.banniere .container .explore:hover{
+    color:yellow;
+    border-bottom: 2px solid yellow;
+    border-right: 2px solid yellow;
+}
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/font_incendie.jpg);
+    background-size: cover;
+}
+.banniere .container{
+    max-width: 70%;
+    text-align: center;
+}
+.banniere .container h2{
+    color:white;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.banniere .container p:nth-child(2){
+    color: white;
+    font-size: 1.2em;
+}
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.container-img img{
+    margin-left:5%;
+    border-radius: 50px;
+    width: 25%;
+
+}
+.container-1{
+    margin: 50px;
+    margin-top: 50px;
+}
+.container-1 h4{
+    color: #318ce7;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-1 p{
+    font-weight: 300;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+
+    width:70%;
+    border:3px solid #318ce7;
+    background-color: #318ce7;
+    margin-left:15%;
+    margin-top:10px;
+}
+.container-4{
+    background-color: #D3D3D3;
+    margin-top: 50px;
+    height: 50vh;
+    display: flex;
+
+}
+.container-4 h4{
+    color: #318ce7;
+    font-weight: 900;
+    font-size: 30px;
+}
+.objet{
+    width: 100%;
+    ext-align: center;
+}
+.Mission{
+    width: 80%;
+    ext-align: center;
+
+}
+.container-4 p{
+    font-weight: 300;
+    margin: 30px;
+}
+.col-1{
+    
+}
+
+footer{
+    padding: 25px;
+    color: white;
+    background-color:#2C3E4C;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 100;
+    border-top:1px solid #318ce7;
+
+
+}
+footer p{
+    font-size: 25px;
+}
+footer .s{
+    color:yellow;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+footer .n{
+    color:red;
+    font-size: 30px;
+    font-weight: 900;
+}
+footer .A{
+    color:#318ce7;
+    font-size: 30px;
+    font-weight: 900;
+}
+.container-5{
+    margin-top: 30px;
+    padding: 100px;
+    background-color: BLACK;
+    margin-left: 15%;
+
+    border-radius: 15px;
+    width: 70%;
+
+
+
+}
+.container-5 p{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+}
+.container-5 input{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid white;
+    color:#318ce7;
+    border-radius: 5px;
+    margin-left: 37%;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.container-5 input:hover{
+    background-color: #318ce7;
+    color:white;
+    border: 1px solid #318ce7;
+}
+
+ 
+}

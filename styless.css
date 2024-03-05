@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 19px;
+    scroll-behavior: smooth;
+    
+
+}
+body{
+    background-color:;
+}
+header img{
+    width:10%;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    height:15vh;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #318ce7;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+    color: white;
+}
+.navbar a:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/font_incendie.jpg);
+    background-size: cover;
+}
+.banniere .container{
+    max-width: 70%;
+    text-align: center;
+}
+.banniere .container h2{
+    color:white;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.banniere .container p:nth-child(2){
+    color: white;
+    font-size: 1.2em;
+}
+/*Liste.html*/
+.header{
+    padding: 50px;
+    background-color:hsl(210, 79%, 55%) ;
+    width: 100%;
+}
+.tableau{
+    border:1px solid #318ce7 ;
+    width: 80%;
+    margin-left: 10%;
+    margin-top:50px ;
+}
+.tableau h2{
+    text-align: center;
+    border-bottom: #318ce7;
+}
+.tableau .header-2{
+    padding: 10px;
+    background-color: #318ce7;
+}
+.tableau table{
+    order-top: 1px solid #318ce7;
+    width: 90%;
+    margin: 5%;
+    border-collapse: collapse;
+}
+.tableau .title th{
+    background-color:#318ce7 ;
+    color: yellow;
+
+}
+.tableau .contenu{
+    border-top:  1px solid #318ce7;
+    text-align: center;
+    background-color:#dff2ff;
+    width: 90%;
+}
+.tableau .contenu:hover{
+    background-color:#318ce7 ;
+    border-top: 3px solid red;
+    color: yellow;
+    font-weight: 800;
+
+}
